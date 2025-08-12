@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(16, 230, 254, 0.492);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.options {
+  margin: 20px 0;
+  text-align: left;
+}
+
+button {
+  background: #3498db;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+#password {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  word-break: break-all;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  user-select: all;
+}
